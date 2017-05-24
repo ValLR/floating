@@ -1,0 +1,101 @@
+body{
+	background: #ecf7fb;
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #2c818b;	
+}
+
+li{
+	float:right;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+	font-family:"Baloo Paaji";
+}
+li a:hover:not(.active) {
+	background-color:#79c4ff;
+}
+
+.active{
+	background-color:red;
+}
+
+section{
+	background:#96b6eb;
+	overflow:auto;
+	margin-top:20px;
+	padding:20px;
+}
+
+.imagenes{
+	width:350px;
+	height:220px;
+	margin:27px;
+	padding:10px;
+	background-color:whitesmoke;
+	float:left;
+}
+p{
+	margin:10px;
+	font-family: "Baloo Paaji";
+}
+.img_2{
+	float:left;
+	margin:20px;
+}
+
+.img_3{
+	float:right;
+	margin:20px;
+}
+/*siguiente section*/
+.derecho{
+	float:right;
+	width: 800px;
+	background:whitesmoke;
+	margin-left:20px;
+}
+.derecho img{
+	float:left;
+	padding:20px;
+}
+.izquierdo{
+	float:right;
+	width:400px;
+	background:whitesmoke;
+	padding:20px;
+	margin-right:20px;
+}
+.izquierdo img{
+	float:right;
+	padding:20px;
+}
+.fotos p{
+	font-family:"Prompt";
+	padding: 20px;
+}
+.img_footer{
+	width:10%;
+	float:right;
+}
+footer{
+	margin-top:20px;
+	background-color:#2c818b;
+	overflow:auto;
+	padding:30px;
+}
+.imagenes{
+	overflow:auto;
+}
+.fotos{
+	overflow:auto;
+}
